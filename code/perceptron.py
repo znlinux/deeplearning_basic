@@ -56,8 +56,7 @@ class Perceptron(object):
 1. 定义激活函数
 2. 基于真值or表构建训练数据（赋值input_vecs,labels）
 3. 利用真值训练感知器
-
-"""        
+       
 def f(x):
     return 1 if x > 0 else 0
     
@@ -80,5 +79,6 @@ if __name__ == '__main__':
     
 #测试
 print('1 or 0 = %d' % and_perceptron.predict([1,0]))
-    
+
+"""     
     
